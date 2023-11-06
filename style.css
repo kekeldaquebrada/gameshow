@@ -1,0 +1,33 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Libre+Baskerville:wght@700&family=Titan+One&family=UnifrakturMaguntia&display=swap');
+
+body{
+    background-image: url(fundo2.jpeg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+h1{
+    font-family:'UnifrakturMaguntia', sans-serif;
+    text-align: center;
+    font-size: 150px;
+    color:#8ecafb;
+  
+}
+.container {
+    text-align: center; /* Alinha o conteúdo no centro */
+    margin-top: 20px; 
+    padding: 20px;
+  
+}
+.dragao{
+    position: absolute;
+            top: 0;
+            right: 0;
+}
+    

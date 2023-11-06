@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Libre+Baskerville:wght@700&family=Titan+One&family=UnifrakturMaguntia&display=swap');
+body{
+background-image: url(fundo2.jpeg);
+text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family:'UnifrakturMaguntia', sans-serif;
+    font-size: 70px;
+    margin-bottom: 20px;
+    color:#ff5600
+}
+img{
+    align-items: center;
+    display: inline-block;
+}
+
+.players {
+    position: relative;
+    display: inline-block;
+}
+
+.players img {
+    width: 300px; /* Ajuste conforme necessário */
+    height: 400px; /* Ajuste conforme necessário */
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay input {
+    padding: 10px;
+}
+.players {
+    position: relative;
+    display: inline-block;
+}
+
+.players img {
+    width: 500;
+    height: 300px; /* Ajuste conforme necessário */
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: none;
+}
+
+.players:hover .overlay {
+    display: block;
+}
+
+.overlay input {
+    padding: 10px;
+    width: 550;
+}
+input{
+    background-color: #ffb600;
+}
+a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+}
+.choose-link {
+    position: absolute;
+    bottom: 0;
+    left: 78%;
+    transform: translateX(-50%);
+    margin-bottom: 220px; /* Ajuste conforme necessário */
+    
+}

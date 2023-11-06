@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Libre+Baskerville:wght@700&family=Titan+One&family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Libre+Baskerville:wght@700&family=Pirata+One&family=Titan+One&family=UnifrakturMaguntia&display=swap');
+body{
+    background-image: url(fundo2.jpeg);
+}
+h1{
+    text-align:end;
+    font-family:'UnifrakturMaguntia', sans-serif;
+    font-size: 70px;
+align-items: center;
+color:#ff5600
+}
+a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;}
+
+    button{
+        position: relative;
+       cursor: pointer;
+       background-color:#f778ca;
+       color: #fff;
+       font-size: 16px;
+       font-weight: bold;
+       border: 0;
+       border-radius: 6px;
+       height: 48px;
+       padding: 0 32px;
+
+       transition: filter 0.1s;
+
+    }
+
+
+  .cronometro {
+    text-align: center;
+    color: #fff;
+    
+}
+
+#tempo {
+    font-size: 2em;
+    margin: 10px;
+}
+
+.jogadores {
+  margin-top: 0%;
+  float: left;
+}
+
+
+
+.jogador {
+  float: right;
+}
+
+.jogador-container {
+  position: relative;
+  display: inline-block;
+}
+
+.play {
+  position: absolute;
+  top: 63%;
+  left: 13%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.play input {
+  margin-bottom: 10px;
+  height: 30px;
+  border-radius: 6px;
+}
+
+.play2{
+  position: absolute;
+  top: 65%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.play2 input{
+  margin-bottom: 10px;
+  height: 30px;
+  border-radius: 6px;
+}
+
+.liink{
+ 
+       cursor: pointer;
+       background-color:#06bb00;
+       color: #fff;
+       font-size: 24px;
+     
+       border: 0;
+       border-radius: 6px;
+       height: 70px;
+       padding: 0 32px;
+
+       position: absolute;
+       top: 90%;
+       left: 95%;
+       transform: translate(-50%, -50%);
+       text-align: center;
+    
+      
+       line-height: 70px; 
+    
+       text-decoration: none;
+       
+       
+}
+
+
+.question-container {
+    color: aliceblue;
+    background-color: #00000000;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 800px;
+    height: 400px;
+    position: relative;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #39af02
+   
+}
+
+.question-container:hover{
+    background-color: #0c033300; 
+    transition: background-color 2s; 
+    box-shadow: 5px 5px 10px 0px rgba(133, 133, 133, 0.5);
+    color: aliceblue;
+    box-shadow: #d3d3d3;
+}
+
+#question{
+    color: aliceblue;
+    background-color:#ff5100fb;
+    font-weight: 900px;
+    text-align: center;
+
+    box-shadow: #d3d3d3;
+    height: 60px;
+    width: 800px;
+   
+}
+
+.alternative {
+    background-color: #000000d2;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: aliceblue;
+    box-shadow: #d3d3d3;
+}
+
+.alternative:hover {
+    background-color: #d3d3d3;
+    color: #000000;
+}
+
+.correct {
+    background-color: #21679f;
+}
+
+.incorrect {
+    background-color: #a5d6ff;
+}
+
+.hidden {
+    display: none;
+}
+
+.container{
+    align-items: center;
+    margin: 0 auto; /* Define margem automática nas laterais para centralizar */
+    max-width: 800px; /
+}
+
+.jogadores {
+    margin-top: 0%;
+    float: left;
+    top: 65%;
+    left: 87%;
+
+  }
+  
+  
+  
+  .jogador {
+    float: right;
+  }
+  
+  .jogador-container {
+    position: relative;
+    display: inline-block;
+    top: 65%;
+  left: 87%;
+  }
+  
+
+  .txt {
+    background-color: #03ff18;
+    box-shadow: #d3d3d3;
+    font-weight: 1200px;
+    color: #000000;
+    width: 700px;
+    height: 50px;
+    
+}
+

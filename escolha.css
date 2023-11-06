@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Libre+Baskerville:wght@700&family=Titan+One&family=UnifrakturMaguntia&display=swap');
+body{
+background-image: url(fundo2.jpeg);
+margin: 0px;
+      padding: 0;
+      box-sizing: border-box;
+      align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-family:'UnifrakturMaguntia', sans-serif;
+    font-size: 70px;
+align-items: center;
+color:#ff5600
+}
+a{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px;
+}
+
+  /* Limpar a quebra de linha após as colunas */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .column {
+    width: 25%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box; /* Garante que padding não altera a largura da coluna */
+    align-items: center;
+   
+  }
+
+  .column img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    margin: 20px;
+  }
+
+  /* Utilizando Flexbox para alinhar as colunas na mesma linha */
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  img{
+    width: 140px;
+    height: 240;
+  }
+
+a.meulink{
+  
+  
+  
+  
+  width: 450px;
+  height: 200;
+ 
+  float: left;
+  padding: 0px;
+  box-sizing: border-box; /* Garante que padding não altera a largura da coluna */
+  align-items: center;
+  
+  position: relative; 
+}
